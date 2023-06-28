@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* style css */
+
+.container {
+    width: 350px; 
+    background-color: #fff;
+    height: 340px;
+    border-radius: 6px;
+    display: block;
+    padding: 20px 25px;
+    text-align: center;
+    margin:  auto;
+    position: relative;
+    box-shadow: 1px 0px 5px 3px rgba(28,30,33,0.06);
+    -webkit-box-shadow: 1px 0px 5px 3px rgba(28,30,33,0.06);
+    -moz-box-shadow: 1px 0px 5px 3px rgba(28,30,33,0.06);}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.facebook{
+    color: #1877f2;
+    font-weight: bold;
+    margin:  auto;
+    text-align: center ;
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.login {
+    color: rgb(28, 30, 33);
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.email, .kata-sandi {
+    padding: 14px 16px;
+    background-color: #fff;
+    border-radius: 6px ;
+    border: .5px solid #aeaeae;
+    width: 330px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.submit{
+    padding: 14px 16px;
+    width: 368px;
+    font-size: 17px;
+    border-radius: 6px ;
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: bold;
+    border: .5px solid #1877f2;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+a{
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+   
+    
+}
+
+.hr-1,.hr-2{
+    width: 155px;
+   
+    
+    
+}
+
+.hr-1{
+    position: absolute;
+    left: 8px;
+    top:280.5px;
+    
+}
+
+.hr-2{
+    position: absolute;
+    right: 10px;
+    top: 280.5px;
+    
+}
+
+.buat-akun{
+    padding: 0 16px;
+    background-color: #42b72a;
+    font-size: 17px;
+    color: #fff;
+    line-height: 48px;
+    border-radius: 6px;
+    border: .5px solid  #42b72a;
+    margin-top: 20px;
+}
+
+.atau{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* responsive breakpoint */
+
+/* hp */
+
+@media screen and (max-width:576px){
+    .container{
+       width: 300px;
+        padding: 20px;
+        overflow: hidden;
+    }
+    body{
+      
+    }
+    .hr-1, .hr-2{
+        width: 125px;
+    }
+    .hr-1{
+        position: absolute;
+        left: 20px;
+        top:278.5px;
+        
+    }
+    .hr-2{
+        position: absolute;
+        right: 20px;
+        top: 278.5px;
+        
+    }
+    .email {
+        width: 250px;
+        text-align: center;
+    }
+    .kata-sandi{
+        width: 250px;
+        text-align: center;
+    }
+    .submit{
+        width: 285px;
+    }
+    a{
+        display: block ;
+    }
+}
